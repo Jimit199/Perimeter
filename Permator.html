@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Intro to JS apps!</title>
+    </head>
+    <body>
+        <h1>Intro to JS!</h1>
+        <script>
+            var choice = prompt("Welcome to the Perimeter!\n1.Perimeter of rectangle\n 2.Perimeter of parrallelogram\n 3.Perimeter of triangle");
+        
+        if (choice =='1') {
+            var l = prompt('Enter the Length')
+            var b = prompt('Enter the width')
+            var result = 2* (Number(l) + Number(b))
+            alert('The Perimeter is '+ result)
+        }
+        if( choice == '2') {
+            var h = prompt('Enter the height')
+            var b = prompt('Enter the width')
+            var result = 2* (Number(h) + Number(b))
+            alert('The Perimeter is '+ result)
+        }
+
+        if (choice == '3'){
+            var side1 = prompt('Enter the Side')
+            var side2 = prompt(' Enter the Side')
+            var side3 = prompt('Enter the Side')
+            var result = Number(side1) + Number(side2) + Number(side3)
+            alert('The Perimeter is ' + result)
+        }
+        </script>
+    </body>
+</html>
